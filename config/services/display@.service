@@ -1,0 +1,8 @@
+{
+    "exec-start": "/service/display",
+    "restart": true,
+    "tty": "/dev/%i",
+    "depends": [
+        "udevd"
+    ]
+}

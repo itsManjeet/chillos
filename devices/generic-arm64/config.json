@@ -1,0 +1,10 @@
+{
+  "name": "generic-arm64",
+  "description": "generic system image for amd64 processor",
+  "arch": "arm64",
+  "environ": {
+    "CFLAGS": "--target=aarch64-linux-musl -fuse-ld=lld",
+    "CXXFLAGS": "--target=aarch64-linux-musl -fuse-ld=lld"
+  },
+  "emulation": ["-machine", "virt", "-vga", "virtio"]
+}

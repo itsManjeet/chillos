@@ -1,0 +1,5 @@
+{
+    "exec-start": "lipi",
+    "restart": true,
+    "tty": "/dev/%i"
+}

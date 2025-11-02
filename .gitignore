@@ -1,0 +1,5 @@
+/_build
+generated.go
+/config.mk
+/.idea
+/_cache

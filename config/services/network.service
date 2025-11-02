@@ -1,0 +1,6 @@
+{
+    "kind": "oneshot",
+    "stage": "init",
+    "exec-start": "busybox ip link set lo up",
+    "exec-stop": "busybox ip link set lo down"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "generic-amd64",
+  "description": "generic system image for amd64 processor",
+  "arch": "amd64",
+  "environ": {
+    "CFLAGS": "--target=x86_64-linux-musl -fuse-ld=lld",
+    "CXXFLAGS": "--target=x86_64-linux-musl -fuse-ld=lld"
+  },
+  "emulation": ["-vga", "qxl"]
+}
