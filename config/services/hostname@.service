@@ -1,5 +1,0 @@
-{
-    "stage": "pre-init",
-    "kind": "oneshot",
-    "exec-start": "sysctl kernel.hostname=%i"
-}

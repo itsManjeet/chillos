@@ -1,0 +1,6 @@
+{
+    "kind": "oneshot",
+    "stage": "init",
+    "exec-start": "busybox swapon -a",
+    "exec-stop": "busybox swapoff -a"
+}
